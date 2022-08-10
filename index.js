@@ -1,11 +1,18 @@
 const ctx = document.getElementById("chart").getContext("2d");
-
+// const addData = function (chart, label, data) {
+// 	chart.data.labels.push(label);
+// 	chart.data.datasets.forEach((dataset) => {
+// 		dataset.data.push(data);
+// 	});
+// 	chart.update();
+// };
+const labels = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
 const data = {
-	labels: ["mon", "tue", "wed", "thur", "fri", "sat", "sun"],
+	labels: labels,
 	datasets: [
 		{
-			label: "",
 			data: [17.45, 34.91, 52.36, 31.07, 23.39, 43.28, 25.48],
+			label: "",
 			backgroundColor: [
 				"hsl(10, 79%, 65%)",
 				"hsl(10, 79%, 65%)",
