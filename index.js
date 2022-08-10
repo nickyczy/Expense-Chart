@@ -32,7 +32,7 @@ const data = {
 			],
 
 			borderRadius: 4,
-			barThickness: 35,
+			barThickness: 38,
 			hoverBackgroundColor: [
 				"hsl(10, 80%, 74%)",
 				"hsl(10, 80%, 74%)",
