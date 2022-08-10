@@ -32,7 +32,7 @@ const data = {
 			],
 
 			borderRadius: 4,
-			barThickness: 38,
+			barThickness: 30,
 			hoverBackgroundColor: [
 				"hsl(10, 80%, 74%)",
 				"hsl(10, 80%, 74%)",
@@ -50,13 +50,9 @@ const config = {
 	type: "bar",
 	data: data,
 	options: {
-		layout: {
-			padding: {
-				top: 10,
-				left: 10,
-				right: 10,
-			},
-		},
+		responsive: true,
+		maintainAspectRatio: true,
+		layout: {},
 		// Remove Grid Lines
 		scales: {
 			x: {
